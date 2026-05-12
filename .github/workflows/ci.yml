@@ -1,0 +1,8 @@
+name: Java CI with Maven
+
+# Kích hoạt workflow khi có push hoặc pull_request
+on:
+  push:
+    branches: [ "main", "phuong" ]
+  pull_request:
+    branches: [ "main", "phuong"]
