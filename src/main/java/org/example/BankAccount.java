@@ -14,7 +14,7 @@ public class BankAccount {
 
     public void deposit(double amount) {
         if (amount > 0) {
-            balance += amount;
+            balance -= amount;
             logger.info("Nap tien thanh cong: {}. So du hien tai: {}", amount, balance);
         } else {
             logger.warn("Nap so tien khong hop le: {}", amount);
